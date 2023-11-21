@@ -1,0 +1,4 @@
+Follow these steps in the correct order :
+1. run remove-null.py
+2. run remove-duplicate.py
+3. run create-folder.py
