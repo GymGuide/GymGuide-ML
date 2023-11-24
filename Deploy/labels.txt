@@ -1,0 +1,7 @@
+0 abdominal-machine
+1 arm-curl
+2 arm-extension
+3 back-extension
+4 back-row-machine
+5 bench-press
+6 cable-lat-pulldown
