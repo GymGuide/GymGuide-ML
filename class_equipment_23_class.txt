@@ -1,1 +1,23 @@
-['abdominal-machine', 'arm-curl', 'arm-extension', 'back-extension', 'back-row-machine', 'bench-press', 'cable-lat-pulldown', 'chest-fly', 'chest-press', 'dip-chin-assist', 'hip-abduction-adduction', 'incline-bench', 'lat-pulldown', 'leg-extension', 'leg-press', 'lying-down-leg-curl', 'overhead-shoulder-press', 'pulley-machine', 'seated-cable-row', 'seated-leg-curl', 'smith-machine', 'squat-rack', 'torso-rotation-machine']
+0 abdominal-machine
+1 arm-curl
+2 arm-extension
+3 back-extension
+4 back-row-machine
+5 bench-press
+6 cable-lat-pulldown
+7 chest-fly
+8 chest-press
+9 dip-chin-assist
+10 hip-abduction-adduction
+11 incline-bench
+12 lat-pulldown
+13 leg-extension
+14 leg-press
+15 lying-down-leg-curl
+16 overhead-shoulder-press
+17 pulley-machine
+18 seated-cable-row
+19 seated-leg-curl
+20 smith-machine
+21 squat-rack
+22 torso-rotation-machine
