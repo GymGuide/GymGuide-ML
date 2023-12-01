@@ -1,4 +1,4 @@
-# GymGuide-Machine-Learning
+# GymGuide-Machine Learning
 
 <p align="justify"> This repository contains a collection of resources used during the capstone project for Bangkit Machine Learning. The project focuses on building machine learning models for our application. For our machine learning needs, we have built image classifier models for Gym Equipment. </p>
 
