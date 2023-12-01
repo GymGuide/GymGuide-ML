@@ -1,6 +1,6 @@
 # GymGuide-Machine-Learning
 
-This repository contains a collection of resources used during the capstone project for Bangkit Machine Learning. The project focuses on building machine learning models for our application. For our machine learning needs, we have built image classifier models for Gym Equipment.
+<p align="justify"> This repository contains a collection of resources used during the capstone project for Bangkit Machine Learning. The project focuses on building machine learning models for our application. For our machine learning needs, we have built image classifier models for Gym Equipment. </p>
 
 <p align="center">
   <img src="https://github.com/GymGuide/GymGuide-ML/assets/90093341/3cf4f9e9-e234-45b1-ba6d-8fbfc9ac37e1" width=30% height=30% >
@@ -27,25 +27,25 @@ The model architecture consists of the following layers:
 
 ### Data Processing
 
-The dataset we used consists of the `Gym Equipment` model are images belonging to 23 different classes of Gym Equipment, including abdominal machine, arm curl, arm extension, back extension, back row machine, bench press, cable lat pulldown, chest fly, chest press, dip chin assist, hip abduction adduction, incline bench, lat pulldown, leg extension, leg press, lying down leg curl, overhead shoulder press, pulley machine, seated cable row, seated leg curl, smith machine, squat rack, torso rotation machine.
+<p align="justify"> The dataset we used consists of the `Gym Equipment` model are images belonging to 23 different classes of Gym Equipment, including abdominal machine, arm curl, arm extension, back extension, back row machine, bench press, cable lat pulldown, chest fly, chest press, dip chin assist, hip abduction adduction, incline bench, lat pulldown, leg extension, leg press, lying down leg curl, overhead shoulder press, pulley machine, seated cable row, seated leg curl, smith machine, squat rack, torso rotation machine. </p>
 
-Data augmentation techniques are applied to increase the diversity and size of the dataset. The `ImageDataGenerator` class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range, brightness range.
+<p align="justify"> Data augmentation techniques are applied to increase the diversity and size of the dataset. The `ImageDataGenerator` class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range, brightness range. </p>
 
 ### Model Training
 
-The model is then trained using the augmented dataset. `Gym Equipment` model training is performed for 10 epochs with a batch size of 8 without Callback.
+<p align="justify"> The model is then trained using the augmented dataset. `Gym Equipment` model training is performed for 10 epochs with a batch size of 8 without Callback. </p>
 
 ### Model Evaluation
 
-The trained model is evaluated using the Test dataset. The evaluation provides the loss and accuracy scores of the model on the Test dataset. Additionally, a sample of images from the test dataset is used to demonstrate the model's predictions. The predicted class and confidence score are displayed for each image.
+<p align="justify"> The trained model is evaluated using the Test dataset. The evaluation provides the loss and accuracy scores of the model on the Test dataset. Additionally, a sample of images from the test dataset is used to demonstrate the model's predictions. The predicted class and confidence score are displayed for each image. </p>
 
 ### Model Saving and Conversion
 
-The trained model is saved in the HDF5 format as `model.h5` for future use. To integrate the model with Android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as `model.tflite` for deployment on resource-constrained devices.
+<p align="justify"> The trained model is saved in the HDF5 format as `model.h5` for future use. To integrate the model with Android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as `model.tflite` for deployment on resource-constrained devices. </p>
 
-In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications.
+<p align="justify"> In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
 
-Also, Creating an API using Flask to serve the model.h5 file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP)).
+<p align="justify"> Also, Creating an API using Flask to serve the model.h5 file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP)). </p>
 
 ## Requirements
 
@@ -59,7 +59,7 @@ To run the notebook and utilize the model, the following dependencies are requir
 
 ## Contributing
 
-Contributions to this project are welcome. If you have any ideas, suggestions, or improvements, please submit a pull request. Make sure to follow the existing coding style and guidelines.
+<p align="justify"> Contributions to this project are welcome. If you have any ideas, suggestions, or improvements, please submit a pull request. Make sure to follow the existing coding style and guidelines. </p>
 
 ## License
 
