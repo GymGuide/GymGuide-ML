@@ -31,7 +31,7 @@ The model architecture consists of the following layers:
 
 <p align="justify"> The dataset we used consists of the <b>Gym Equipment</b> model are images belonging to 23 different classes of Gym Equipment, including abdominal machine, arm curl, arm extension, back extension, back row machine, bench press, cable lat pulldown, chest fly, chest press, dip chin assist, hip abduction adduction, incline bench, lat pulldown, leg extension, leg press, lying down leg curl, overhead shoulder press, pulley machine, seated cable row, seated leg curl, smith machine, squat rack, torso rotation machine. </p>
 
-<p align="justify"> Data augmentation techniques are applied to increase the diversity and size of the dataset. The <b>ImageDataGenerator</b> class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range, brightness range. </p>
+<p align="justify"> Data augmentation techniques are applied to increase the diversity and size of the dataset. The <b>ImageDataGenerator</b> class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range and brightness range. </p>
 
 ### Model Training
 
