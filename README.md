@@ -15,7 +15,7 @@
 </p>
 
 ## Datasets
-* [Gym Equipment](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
+[Gym Equipment](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
 
 ## Models
 
