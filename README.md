@@ -45,9 +45,9 @@ The model architecture consists of the following layers:
 
 <p align="justify"> The trained model is saved in the HDF5 format as <b>model.h5</b> for future use. To integrate the model with Android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as <b>model.tflite</b> for deployment on resource-constrained devices. </p>
 
-<p align="justify"> In addition to the TFLite model, a metadata file (metadata.txt) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
+<p align="justify"> In addition to the TFLite model, a metadata file <b>metadata.txt</b> is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
 
-<p align="justify"> Also, Creating an API using Flask to serve the <b>model.h5</b> file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP). </p>
+<p align="justify"> Also, creating an API using Flask to serve the <b>model.h5</b> file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP). </p>
 
 ## Requirements
 
