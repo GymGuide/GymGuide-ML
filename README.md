@@ -45,7 +45,7 @@ The model architecture consists of the following layers:
 
 <p align="justify"> In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
 
-<p align="justify"> Also, Creating an API using Flask to serve the model.h5 file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP)). </p>
+<p align="justify"> Also, Creating an API using Flask to serve the model.h5 file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP). </p>
 
 ## Requirements
 
