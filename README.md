@@ -8,6 +8,8 @@
 
 ## Architecture
 
+<p align="justify"> The model employs Convolutional Neural Network (CNN) technology, a powerful approach in machine learning. This architecture enables the model to effectively process and recognize patterns in input data, making it well-suited for tasks such as image classification. </p>
+
 <p align="center">
   <img src="https://github.com/GymGuide/GymGuide-ML/assets/90093341/3c08db26-082e-4c62-915b-97030be583c1" width=30% height=30% >
 </p>
@@ -27,13 +29,13 @@ The model architecture consists of the following layers:
 
 ### Data Processing
 
-<p align="justify"> The dataset we used consists of the `Gym Equipment` model are images belonging to 23 different classes of Gym Equipment, including abdominal machine, arm curl, arm extension, back extension, back row machine, bench press, cable lat pulldown, chest fly, chest press, dip chin assist, hip abduction adduction, incline bench, lat pulldown, leg extension, leg press, lying down leg curl, overhead shoulder press, pulley machine, seated cable row, seated leg curl, smith machine, squat rack, torso rotation machine. </p>
+<p align="justify"> The dataset we used consists of the <b>Gym Equipment</b> model are images belonging to 23 different classes of Gym Equipment, including abdominal machine, arm curl, arm extension, back extension, back row machine, bench press, cable lat pulldown, chest fly, chest press, dip chin assist, hip abduction adduction, incline bench, lat pulldown, leg extension, leg press, lying down leg curl, overhead shoulder press, pulley machine, seated cable row, seated leg curl, smith machine, squat rack, torso rotation machine. </p>
 
-<p align="justify"> Data augmentation techniques are applied to increase the diversity and size of the dataset. The `ImageDataGenerator` class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range, brightness range. </p>
+<p align="justify"> Data augmentation techniques are applied to increase the diversity and size of the dataset. The <b>ImageDataGenerator</b> class from TensorFlow is used for rescale, rotation range, zoom range, horizontal flip, fill mode, width shift range, height shift range, shear range, channel shift range, brightness range. </p>
 
 ### Model Training
 
-<p align="justify"> The model is then trained using the augmented dataset. `Gym Equipment` model training is performed for 10 epochs with a batch size of 8 without Callback. </p>
+<p align="justify"> The model is then trained using the augmented dataset. <b>Gym Equipment</b> model training is performed for 10 epochs with a batch size of 8 without Callback. </p>
 
 ### Model Evaluation
 
@@ -41,11 +43,11 @@ The model architecture consists of the following layers:
 
 ### Model Saving and Conversion
 
-<p align="justify"> The trained model is saved in the HDF5 format as `model.h5` for future use. To integrate the model with Android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as `model.tflite` for deployment on resource-constrained devices. </p>
+<p align="justify"> The trained model is saved in the HDF5 format as <b>model.h5</b> for future use. To integrate the model with Android applications, the model is converted to the TensorFlow Lite (TFLite) format using the TFLite Converter. The TFLite model is saved as <b>model.tflite</b> for deployment on resource-constrained devices. </p>
 
-<p align="justify"> In addition to the TFLite model, a metadata file (`metadata.txt`) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
+<p align="justify"> In addition to the TFLite model, a metadata file (metadata.txt) is provided. The metadata file contains information about the model, such as input and output tensor names, input and output types, and model descriptions. It serves as a reference for integrating the TFLite model into applications. </p>
 
-<p align="justify"> Also, Creating an API using Flask to serve the model.h5 file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP). </p>
+<p align="justify"> Also, Creating an API using Flask to serve the <b>model.h5</b> file and deploying it on Google Cloud Run within the Google Cloud Platform (GCP). </p>
 
 ## Requirements
 
