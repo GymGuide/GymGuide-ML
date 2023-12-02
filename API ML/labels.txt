@@ -5,19 +5,4 @@
 4 back-row-machine
 5 bench-press
 6 cable-lat-pulldown
-7 chest-fly
-8 chest-press
-9 dip-chin-assist
-10 hip-abduction-adduction
-11 incline-bench
-12 lat-pulldown
-13 leg-extension
-14 leg-press
-15 lying-down-leg-curl
-16 overhead-shoulder-press
-17 pulley-machine
-18 seated-cable-row
-19 seated-leg-curl
-20 smith-machine
-21 squat-rack
-22 torso-rotation-machine
+
