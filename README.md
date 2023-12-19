@@ -16,10 +16,8 @@
 
 ## Datasets
 
-Raw Dataset :
-[GymBro Computer Vision Project Dataset](https://universe.roboflow.com/rizzlabzz/gymbro)
-Cleaned Dataset :
-[Gym Equipment - Cleaned](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
+- Raw Dataset : [GymBro Computer Vision Project Dataset](https://universe.roboflow.com/rizzlabzz/gymbro)
+- Cleaned Dataset : [Gym Equipment - Cleaned](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
 
 ## Models
 
