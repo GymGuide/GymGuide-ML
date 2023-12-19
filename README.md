@@ -15,7 +15,11 @@
 </p>
 
 ## Datasets
-[Gym Equipment](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
+
+# Raw
+[GymBro Computer Vision Project Dataset](https://universe.roboflow.com/rizzlabzz/gymbro)
+# Cleaned
+[Gym Equipment - Cleaned](https://drive.google.com/file/d/181DEbZBhq0XO3QJfPuYNRxGqnqr7oP-9/view?usp=sharing)
 
 ## Models
 
